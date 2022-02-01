@@ -7,4 +7,4 @@ btn.style['border-radius'] = '4px';
 btn.style['padding'] = '6px 12px';
 btn.onclick= function() {
     location.href = "https://www.ozon.ru/seller/port-usb-253731/products/?miniapp=seller_253731"; }
-document.getElementsByClassName('ins-tile__buttons').appendChild(btn);
+document.getElementsById('tile-cover-8XGkwV').appendChild(btn);
