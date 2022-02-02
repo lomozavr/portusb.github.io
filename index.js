@@ -1,6 +1,6 @@
 let btn = document.createElement("button");
 let btns = document.getElementsByClassName('ins-tile__buttons')[0];
-btn.innerHTML = "Наш магазин на Ozon";
+btn.innerHTML = "МЫ НА OZON";
 btn.style['color'] = "white";
 btn.style['backgroundColor'] = "#005bff";
 btn.style['border'] = "none";
@@ -11,3 +11,4 @@ btn.style['fontFamily'] = 'inter';
 btn.onclick = function() {
     location.href = "https://www.ozon.ru/seller/port-usb-253731/products/?miniapp=seller_253731"; }
 btns.appendChild(btn);
+btn.style['cursor'] = 'pointer';
