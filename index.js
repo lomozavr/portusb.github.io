@@ -12,3 +12,10 @@ btn.onclick = function() {
     location.href = "https://www.ozon.ru/seller/port-usb-253731/products/?miniapp=seller_253731"; }
 btns.appendChild(btn);
 btn.style['cursor'] = 'pointer';
+btn.onmouseenter = function() {
+  this.style.background = '#0066ff';
+}
+
+btn.onmouseleave = function() {
+  this.style.background = '#005bff';
+}
