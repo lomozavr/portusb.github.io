@@ -1,6 +1,6 @@
 let btn = document.createElement("button");
 let btns = document.getElementsByClassName('ins-tile__buttons')[0];
-btn.innerHTML = "МЫ НА OZON";
+btn.innerHTML = "Наш магазин на Ozon";
 btn.style['color'] = "white";
 btn.style['backgroundColor'] = "#005bff";
 btn.style['border'] = "none";
