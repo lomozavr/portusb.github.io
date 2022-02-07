@@ -9,13 +9,13 @@ btn.style['margin-left'] = '10px';
 btn.style['padding'] = '6px 12px';
 btn.style['fontFamily'] = 'inter';
 btn.onclick = function() {
-    location.href = "https://www.ozon.ru/seller/port-usb-253731/products/?miniapp=seller_253731"; }
+    location.href = "https://www.ozon.ru/seller/port-usb-253731/products/?miniapp=seller_253731"; };
 btns.appendChild(btn);
 btn.style['cursor'] = 'pointer';
 btn.onmouseenter = function() {
   this.style.background = '#0066ff';
-}
+};
 
 btn.onmouseleave = function() {
   this.style.background = '#005bff';
-}
+};
